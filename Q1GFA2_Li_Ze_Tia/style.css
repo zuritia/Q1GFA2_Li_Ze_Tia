@@ -1,0 +1,81 @@
+.container{
+    background: url(gray.png);
+    position: relative;
+}
+.container div{
+    min-height: 40vh;
+}
+.leftlinks{
+    border: 2px solid white;
+    height: 30vh;
+    width: 13vw;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-image: url(grayy.png);
+    float: left;
+    display: inline-block;
+}
+.leftlinks a img{
+    max-width: 70px;
+    max-height: 65px;
+    margin-top: 10px;
+    margin-left: 15px;  
+}
+.leftlinks p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.mainbox{
+    display: inline-block;
+    border: 2px solid white;
+    margin-left: 15px;  
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 62.5vw;
+    height: 100vh;
+    background-color: rgb(165, 168, 165);
+}
+.mainbox p{
+    font-size: 45px;
+    font-family: HeheFont;
+    margin-left: 50px;
+    color: rgb(35, 46, 37);
+}
+.Descmain p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+}
+.svtbanner img{
+    height: 35vh;
+    margin-left: 230px;
+    margin-bottom: 300px;
+}
+.rightbox{
+    border: 2px solid rgb(56, 56, 56);
+    float: right;
+    display: inline-block;
+    width: 14vw;
+    margin-right: 38px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 2%;
+    
+}
+.rightbox img{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.rightbox p{
+    margin-left: 8px;
+    margin-right: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(56, 56, 56);
+}
+@font-face{
+    font-family: HeheFont;
+    src: url(Road_Rage.otf)
+}
